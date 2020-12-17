@@ -7,7 +7,7 @@ class Demo
     Scanner sc=new Scanner(System.in);
 int sumofall, sumofar=0, missing_no;
 int n;
-    System.out.println("enter n");
+    System.out.println("enter size of array");
     n=sc.nextInt();
     sumofall=(n*(n+1))/2;
     int ar[]=new int[n];
